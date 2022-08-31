@@ -1,0 +1,133 @@
+.navbar-brand-footer{
+    background: linear-gradient(#ffff, #9e9e9e);
+    text-align: center;
+}
+.is-primary-footer{
+    align-items: baseline;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 0px;
+}
+.footer-img{
+    height: 40px;
+    filter: invert(1);
+    width: 100%;
+}
+#logo{
+    height: 60px;
+}
+li{
+    padding: 10px;
+    list-style: none;
+    display: block;   
+}
+ul{
+    padding-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+.footer{
+    color:rgb(113, 120, 160);
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+#etiqueta_a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+#etiqueta_a:hover{
+    text-decoration: none;
+}
+.bancos{
+    display: block;
+    background-color: black;
+}
+
+#metop{
+    color: white;
+    text-align: center;
+    display: block;
+    padding-top: 16px;
+}
+#metop:hover{
+    text-decoration: double;
+    color: azure;
+}
+.final{
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    height: 3rem;
+    width: 100%;
+   background-color:#AFB7CF;
+}
+#final{
+    text-decoration: none;
+    color:#ffffff ;
+    font-weight: bolder;
+    font-size: 18px;
+}
+@media (min-width: 650px){
+    .footer-img{
+        height: 60px;
+    }
+}
+@media (min-width: 780px){
+    #metop{
+        color: white;
+        font-size: large;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .footer-img{
+        height: 80px;
+    }
+    .bancos{
+        align-items: center;
+        display: flex;
+        justify-content: space-evenly;
+        height: 5rem;
+        width: 100%;
+        background-color: black;
+    }
+    .navbar-brand-footer{
+        align-items: center;
+        display: flex;
+        justify-content: space-evenly;
+        height: 10rem;
+        width: 100%;
+        background: linear-gradient(#ffff, #9e9e9e);
+    }
+    .footer{
+        font-size: 20px;
+    }
+    .footer-text{
+        display: flex;
+        align-items: center;
+    }
+    .footer-links{
+        padding: 0px 16px;
+    }
+    #etiqueta_a{
+        font-size: 20px;
+    }
+}
+@media (min-width: 1200px){
+    .footer-img{
+        height: 100px;
+        width: 60%;
+    }
+    .bancos{
+        height: 7em;
+        justify-content: center;
+    }
+}
+@media (min-width: 1400px){
+    .input-header{
+        padding: 3px 900px 4px 15px;
+    }
+}

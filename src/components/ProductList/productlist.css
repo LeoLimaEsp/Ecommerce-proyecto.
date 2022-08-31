@@ -1,0 +1,93 @@
+body{
+    background-color:white;
+    margin: 0;
+  }
+  
+  
+  .app {
+    text-align: center;
+  }
+  
+  .main-container{
+    align-items: center;
+    background-color: #ffff ;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: medium;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  .parent {
+    display: flex;
+    flex-wrap: wrap;
+    }
+  
+  .child{
+    margin: 32px;
+  }
+  
+
+  .images-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+    .card {
+      box-shadow: 0 9px 10px 0 rgba(0, 0, 0, 0.61);
+      border-radius: 5%;
+      transition: 0.3s;
+      width: 255px;
+      height: 480px;
+      justify-content: space-around;
+      text-align: center;
+      padding: 16px;  
+  }
+  
+  
+  .imagen{
+    border-radius: 5%;
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+  }
+  
+  p{ 
+    color: black;
+    list-style: none;
+    font-weight: bold;
+    }
+
+ .btn {
+    background-color:#D8F0E1;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 10px ;
+    border-radius: 10px 10px;
+    border: none;
+ }
+
+ .btn:hover{
+  background-color:#ACA2EE ;
+  border: none;
+ }
+
+ .error-img{
+  margin: 16px;
+ }
+ .error-text{
+  text-align: center;
+  margin-top: 16px;
+ }
+
+ .card-styles-inicio{
+  margin: 48px;
+ }
+
+ .page-link {
+  color: black;
+}
+
+.page-link:hover{
+  color: black;
+}
